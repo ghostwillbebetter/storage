@@ -186,11 +186,16 @@ main article {
 	}
 
 	.team-title strong {
-		padding: 0 10px 0 0;
+		padding: 0 10px;
 	}
 	.team-title span {
 		padding: 0 8px 0 10px;
 	}
+
+	.team-title span + strong {
+		padding: 0 10px 0 0;
+	}
+
 	.team-title strong,
 	.team-title span {
 		z-index: 1;
@@ -203,7 +208,7 @@ main article {
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
-		width: 100vw;
+		width: calc(100vw - 40px);
 		height: 2px;
 		background-color: #e5e7eb;
 		z-index: 0;
