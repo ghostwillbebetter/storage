@@ -55,9 +55,16 @@
       </div>
     </main>
     <script>
-      // 이미지 lazy loading (로딩 전까지 placeholder)
       document.addEventListener("DOMContentLoaded", function () {
-        // 등급 클래스 반환
+        /** 등급을 숫자로 변환 (정렬용) */
+        function parseGrade(grade) {
+          if (grade === "팀장") return 0;
+          if (grade === "부팀장") return 1;
+          const num = parseInt(grade);
+          return isNaN(num) ? 99 : num;
+        }
+
+        /** 등급에 따른 클래스 반환 */
         function getGradeClass(grade) {
           switch (grade) {
             case "1":
@@ -73,7 +80,7 @@
           }
         }
 
-        // 키워드 span 생성
+        /** 키워드 span 생성 */
         function createKeywordSpans(keywords) {
           return keywords.slice(0, 3).map((kw) => {
             const span = document.createElement("span");
@@ -84,17 +91,19 @@
           });
         }
 
-        // 구성원 카드 생성
+        /** 구성원 카드 생성 */
         function createMemberCard(member) {
           const li = document.createElement("li");
           const wrapper = document.createElement("div");
           wrapper.className =
             "flex flex-col items-center bg-gray-50 rounded-xl shadow relative";
 
+          // 포지션
           const position = document.createElement("div");
           position.className = `position ${member.position}`;
           position.textContent = member.position;
 
+          // 등급
           const grade = document.createElement("span");
           grade.classList.add(
             "grade",
@@ -110,6 +119,7 @@
           );
           grade.textContent = member.grade;
 
+          // 이미지
           const aImg = document.createElement("a");
           aImg.href = member.imgLink;
           aImg.target = "_blank";
@@ -122,6 +132,7 @@
           img.src = member.loadingImg;
           aImg.appendChild(img);
 
+          // 정보
           const info = document.createElement("div");
           info.className = "info_area";
 
@@ -137,11 +148,14 @@
             pKeywords.appendChild(span)
           );
 
+          info.appendChild(nameLink);
+          info.appendChild(pKeywords);
+
+          // 밑줄
           const underline = document.createElement("div");
           underline.className = "underline";
 
-          info.appendChild(nameLink);
-          info.appendChild(pKeywords);
+          // 조립
           wrapper.appendChild(position);
           wrapper.appendChild(grade);
           wrapper.appendChild(aImg);
@@ -152,10 +166,11 @@
           return li;
         }
 
-        // 팀 article 생성
+        /** 팀 article 생성 */
         function createTeamArticle(team) {
           const article = document.createElement("article");
 
+          // 타이틀 영역
           const teamTitleDiv = document.createElement("div");
           teamTitleDiv.className = "team-title";
 
@@ -169,6 +184,7 @@
           teamTitleDiv.appendChild(divider);
           teamTitleDiv.appendChild(title);
 
+          // 리스트 영역
           const ul = document.createElement("ul");
           ul.className = "team-list grid gap-3 mb-8";
 
@@ -182,21 +198,46 @@
           return article;
         }
 
-        // 등급을 숫자로 변환 (정렬용)
-        function parseGrade(grade) {
-          if (grade === "팀장") return 0;
-          if (grade === "부팀장") return 1;
-          const num = parseInt(grade);
-          return isNaN(num) ? 99 : num;
+        /** 이미지 lazy loading */
+        function lazyLoadImages() {
+          document.querySelectorAll("img[data-src]").forEach((img) => {
+            const realSrc = img.getAttribute("data-src");
+            if (!realSrc) return;
+            const tempImg = new window.Image();
+            tempImg.onload = function () {
+              img.src = realSrc;
+            };
+            tempImg.src = realSrc;
+          });
         }
 
-        // 데이터 로딩 및 정렬 후 삽입
+        /** 반짝이 효과 부여 */
+        function addTwinkleEffect() {
+          const targetGrades = ["팀장", "부팀장", "1급"];
+          document.querySelectorAll(".team-list li").forEach((item) => {
+            const gradeEl = item.querySelector(".grade");
+            if (gradeEl && targetGrades.includes(gradeEl.textContent.trim())) {
+              const imgEl = item.querySelector("img.img_target");
+              if (imgEl) {
+                const twinkleWrapper = document.createElement("div");
+                twinkleWrapper.className = "twinkle_wrapper";
+                const twinkle = document.createElement("div");
+                twinkle.className = "twinkle";
+                twinkleWrapper.appendChild(twinkle);
+                imgEl.insertAdjacentElement("afterend", twinkleWrapper);
+              }
+            }
+          });
+        }
+
+        /** 데이터 로딩 및 삽입 */
         fetch("data.json")
           .then((res) => res.json())
           .then((data) => {
             const container = document.querySelector("section.members");
+
             data.forEach((team) => {
-              // 정렬: grade → name(가나다 순)
+              // 등급 → 이름 순 정렬
               team.members.sort((a, b) => {
                 const gradeA = parseGrade(a.grade);
                 const gradeB = parseGrade(b.grade);
@@ -207,35 +248,10 @@
               const article = createTeamArticle(team);
               container.appendChild(article);
             });
+
+            lazyLoadImages();
+            addTwinkleEffect();
           });
-
-        document.querySelectorAll("img[data-src]").forEach(function (img) {
-          const realSrc = img.getAttribute("data-src");
-          if (!realSrc) return;
-          const tempImg = new window.Image();
-          tempImg.onload = function () {
-            img.src = realSrc;
-          };
-          tempImg.src = realSrc;
-        });
-
-        // '팀장', '부팀장', '1급'에게 반짝이는 효과 추가
-        const targetGrades = ["팀장", "부팀장", "1급"];
-        document.querySelectorAll(".team-list li").forEach((item) => {
-          const gradeEl = item.querySelector(".grade");
-          // .grade 요소가 있고, 텍스트 내용이 targetGrades 배열에 포함되는지 확인
-          if (gradeEl && targetGrades.includes(gradeEl.textContent.trim())) {
-            const imgEl = item.querySelector("img.img_target");
-            if (imgEl) {
-              const twinkleWrapper = document.createElement("div");
-              twinkleWrapper.className = "twinkle_wrapper";
-              const twinkle = document.createElement("div");
-              twinkle.className = "twinkle";
-              twinkleWrapper.appendChild(twinkle);
-              imgEl.insertAdjacentElement("afterend", twinkleWrapper);
-            }
-          }
-        });
       });
     </script>
   </body>
