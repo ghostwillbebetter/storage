@@ -1,0 +1,453 @@
+[
+    {
+      "teamTitle": "BOSS",
+      "members": [
+        {
+          "name": "비비안",
+          "profileLink": "https://docs.google.com/document/d/1-G6mdq-sIKlj80tYFCmE50ZNs4m-4HqWjV3V8-qqA0c/edit?tab=t.43ix4f4lr3sb",
+          "position": "Wheel",
+          "grade": "팀장",
+          "imgLink": "https://pbs.twimg.com/media/GuNDB-4bsAAiJCc?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNDB-4bsAAiJCc?format=jpg&name=4096x4096",
+          "keywords": [
+            "#게으른",
+            "#무책임한",
+            "#기분파"
+          ]
+        },
+        {
+          "name": "카트주크",
+          "profileLink": "https://docs.google.com/document/d/1-G6mdq-sIKlj80tYFCmE50ZNs4m-4HqWjV3V8-qqA0c/edit?tab=t.2pet7a99lztb",
+          "position": "lead",
+          "grade": "부팀장",
+          "imgLink": "https://pbs.twimg.com/media/GuNDHQRagAAY0N4?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNDHQRagAAY0N4?format=jpg&name=4096x4096",
+          "keywords": [
+            "#칼같은",
+            "#신중한",
+            "#팀우선주의"
+          ]
+        }
+      ]
+    },
+    {
+      "teamTitle": "Dogs",
+      "members": [
+        {
+          "name": "레논",
+          "profileLink": "https://docs.google.com/document/d/1Gm0OxDUmAl1Cl3e1qmA7TMGuyRQ7S0O_ZStdTcUjvg0/edit?tab=t.43ix4f4lr3sb",
+          "position": "swing",
+          "grade": "1",
+          "imgLink": "https://pbs.twimg.com/media/GuNDTxtagAA9wKg?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNDTxtagAA9wKg?format=jpg&name=4096x4096",
+          "keywords": [
+            "#순진한",
+            "#애교있는",
+            "#책임감 있는"
+          ]
+        },
+        {
+          "name": "킨키",
+          "profileLink": "https://docs.google.com/document/d/1kSVxZUdt9maI21Y2X937HZcTaZexuujBG20TWdH50yk/edit?tab=t.0",
+          "position": "Wheel",
+          "grade": "1",
+          "imgLink": "https://pbs.twimg.com/media/GuNDm39agAML0ld?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNDm39agAML0ld?format=jpg&name=4096x4096",
+          "keywords": [
+            "#다혈질적인",
+            "#허세있는",
+            "#말보다는",
+            "#주먹파"
+          ]
+        },
+        {
+          "name": "데이지",
+          "profileLink": "https://docs.google.com/document/d/12S37PrqG2wCdrS_fwmEK0pLLPC2RDYeTtGvNQfFPgOM/edit?tab=t.43ix4f4lr3sb",
+          "position": "lead",
+          "grade": "2",
+          "imgLink": "https://pbs.twimg.com/media/GuNEBJOagAAMBQu?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNEBJOagAAMBQu?format=jpg&name=4096x4096",
+          "keywords": [
+            "#포용하는",
+            "#푼수",
+            "#공과 사의 경계가 뚜렷한"
+          ]
+        },
+        {
+          "name": "이산드로",
+          "profileLink": "https://docs.google.com/document/d/19YfhZDZYZ1stTuyTWtC_3vKj-lvj2rLhDnw6lcTw46c/edit?tab=t.0",
+          "position": "team",
+          "grade": "2",
+          "imgLink": "https://pbs.twimg.com/media/GuNEEMIaEAAP-yW?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNEEMIaEAAP-yW?format=jpg&name=4096x4096",
+          "keywords": [
+            "#이기적인",
+            "#경계심",
+            "#현실주의"
+          ]
+        },
+        {
+          "name": "조",
+          "profileLink": "https://docs.google.com/document/d/1y3sbC9_ZpCZ_Pv-3LoimEwQS6eaEYrjWyKn6kGBmUUI/edit?tab=t.43ix4f4lr3sb#heading=h.ynvw40s4cckn",
+          "position": "Wheel",
+          "grade": "3",
+          "imgLink": "https://pbs.twimg.com/media/GuNFrMtagAA45kK?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNFrMtagAA45kK?format=jpg&name=4096x4096",
+          "keywords": [
+            "#어리석은",
+            "#우울한",
+            "#충동적인",
+            "#순종적인"
+          ]
+        },
+        {
+          "name": "리틀랫",
+          "profileLink": "https://docs.google.com/document/d/1z3YEQ_8TLmNJdftuwXNSZZnytssgo9IpQwNwHwv1HLA/edit?tab=t.0",
+          "position": "team",
+          "grade": "2",
+          "imgLink": "https://pbs.twimg.com/media/GuNFuzXagAQDzC6?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNFuzXagAQDzC6?format=jpg&name=4096x4096",
+          "keywords": [
+            "#꼼꼼한",
+            "#언행일치",
+            "#명령에 충실한"
+          ]
+        },
+        {
+          "name": "샴 세타",
+          "profileLink": "https://docs.google.com/document/d/1poa7IsrJXKUJOGbGqv8AEQFvNMPLjic5KGzQlWUTDeE/edit?tab=t.43ix4f4lr3sb",
+          "position": "Wheel",
+          "grade": "2",
+          "imgLink": "https://pbs.twimg.com/media/GuNHadoagAIeELQ?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNHadoagAIeELQ?format=jpg&name=4096x4096",
+          "keywords": [
+            "#신경질적인",
+            "#충동적인",
+            "#빈정거리는"
+          ]
+        },
+        {
+          "name": "레밍턴",
+          "profileLink": "https://docs.google.com/document/d/1vKb56nBtBOOeKpIQsbAwJG7ZL6X8fddlnoJiY8v33So/edit?tab=t.43ix4f4lr3sb",
+          "position": "Wheel",
+          "grade": "1",
+          "imgLink": "https://pbs.twimg.com/media/GuNEJRGboAAkxjq?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNEJRGboAAkxjq?format=jpg&name=4096x4096",
+          "keywords": [
+            "#충동적인",
+            "#집착하는",
+            "#반항적인"
+          ]
+        },
+        {
+          "name": "올리비아",
+          "profileLink": "https://docs.google.com/document/d/1LShjhT1M-Veu4yebF2AKPbnJQah7Zv7jaXUh0cv6Za0/edit?tab=t.0#heading=h.ynvw40s4cckn",
+          "position": "lead",
+          "grade": "2",
+          "imgLink": "https://pbs.twimg.com/media/GuNEMKoagAAoPvo?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNEMKoagAAoPvo?format=jpg&name=4096x4096",
+          "keywords": [
+            "#차분한",
+            "#직설적",
+            "#혼란스러운"
+          ]
+        },
+        {
+          "name": "톱카즈",
+          "profileLink": "https://docs.google.com/document/d/1FBX3zsW_T4F6dTtB4K80nMisTJEJg8cItZ2YyHf0zXQ/edit?tab=t.43ix4f4lr3sb",
+          "position": "team",
+          "grade": "3",
+          "imgLink": "https://pbs.twimg.com/media/GuNFca8agAEAlEz?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNFca8agAEAlEz?format=jpg&name=4096x4096",
+          "keywords": [
+            "#충성!",
+            "#질서!",
+            "#멍청..."
+          ]
+        },
+        {
+          "name": "오닉스",
+          "profileLink": "https://docs.google.com/document/d/1iUKwXUBjau_-7xmVTc-1Jv_L2Q8nf0Q9uM2a1If-P6k/edit?tab=t.43ix4f4lr3sb",
+          "position": "swing",
+          "grade": "3",
+          "imgLink": "https://pbs.twimg.com/media/GuNHmgmbUAA0qRX?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNHmgmbUAA0qRX?format=jpg&name=4096x4096",
+          "keywords": [
+            "#다정한 죄책감",
+            "#이기적인 책임감",
+            "#자기증명"
+          ]
+        },
+        {
+          "name": "젯 블레이크",
+          "profileLink": "https://docs.google.com/document/d/1fMTh8FkffccSv99a-dIfoF7PSBepMLGfXMqASO8ywPQ/edit?tab=t.0",
+          "position": "team",
+          "grade": "3",
+          "imgLink": "https://pbs.twimg.com/media/GuNGk3PawAAjShh?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNGk3PawAAjShh?format=jpg&name=4096x4096",
+          "keywords": [
+            "#교활한",
+            "#담대한",
+            "#도박주의자"
+          ]
+        },
+        {
+          "name": "할 듀란트",
+          "profileLink": "https://docs.google.com/document/d/11tCpN2EBb_Ihtfa9QaLJUllRRM_sIZAw-m7_dxfr_b0/edit?tab=t.43ix4f4lr3sb",
+          "position": "Wheel",
+          "grade": "3",
+          "imgLink": "https://pbs.twimg.com/media/GuNEVh7agAEbhq-?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNEVh7agAEbhq-?format=jpg&name=4096x4096",
+          "keywords": [
+            "#고루하고",
+            "#솔직하고",
+            "#무모하고"
+          ]
+        },
+        {
+          "name": "스트라이커",
+          "profileLink": "https://docs.google.com/document/d/1Yubtg7B-2ODj_Efoq-_xvlBOkqKjyMoG3qh-s5qumDE/edit?tab=t.0",
+          "position": "Wheel",
+          "grade": "2",
+          "imgLink": "https://pbs.twimg.com/media/GuNEZV4bEAAQS8i?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNEZV4bEAAQS8i?format=jpg&name=4096x4096",
+          "keywords": [
+            "#단순무식",
+            "#다혈질",
+            "#고집"
+          ]
+        },
+        {
+          "name": "이파네마",
+          "profileLink": "https://docs.google.com/document/d/1WtBbFx765PVHzPkZx4iRKDObm_G_yZfWBqo9TTJiBoQ/edit?tab=t.2o6nk65fj334",
+          "position": "lead",
+          "grade": "3",
+          "imgLink": "https://pbs.twimg.com/media/GuNEs7XagAAcnZM?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNEs7XagAAcnZM?format=jpg&name=4096x4096",
+          "keywords": [
+            "#완고한",
+            "#도덕적",
+            "#꼼꼼함"
+          ]
+        },
+        {
+          "name": "루터",
+          "profileLink": "https://docs.google.com/document/d/1mVZHA3YmrAQDGDNHgQI1aYgi6lY2xWTKCD4-1Ms1ouQ/edit?tab=t.43ix4f4lr3sb",
+          "position": "swing",
+          "grade": "2",
+          "imgLink": "https://pbs.twimg.com/media/GuNE9wNbgAAtJVR?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNE9wNbgAAtJVR?format=jpg&name=4096x4096",
+          "keywords": [
+            "#자본주의",
+            "#예민한",
+            "#거짓말쟁이"
+          ]
+        },
+        {
+          "name": "라이카",
+          "profileLink": "https://docs.google.com/document/d/1eRZlEd4gLX8VAhQX055RAfmL6E49e6Clqow-dNTKJDI/edit?tab=t.43ix4f4lr3sb",
+          "position": "team",
+          "grade": "3",
+          "imgLink": "https://pbs.twimg.com/media/GuNFjgUbYAASpRT?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNFjgUbYAASpRT?format=jpg&name=4096x4096",
+          "keywords": [
+            "#허세작렬",
+            "#오지라퍼",
+            "#모질지 못한"
+          ]
+        },
+        {
+          "name": "니코",
+          "profileLink": "https://docs.google.com/document/d/1tiC9vwBi_LX8mwECugEbfMEy0c3NFkJqpQIU2VGYC3o/edit?usp=sharing",
+          "position": "Wheel",
+          "grade": "2",
+          "imgLink": "https://pbs.twimg.com/media/GuNElKMaoAAJNDk?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNElKMaoAAJNDk?format=jpg&name=4096x4096",
+          "keywords": [
+            "#우직한",
+            "#매사에 무딘",
+            "#쾌활한"
+          ]
+        },
+        {
+          "name": "로렌즈 루스너",
+          "profileLink": "https://docs.google.com/document/d/1BV-PBegh_U3DMw9G5GXU3CJXmyXgLt7VrfkcFO9Vp5o/edit?usp=sharing",
+          "position": "team",
+          "grade": "3",
+          "imgLink": "https://pbs.twimg.com/media/GuNEqjSakAER8P9?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNEqjSakAER8P9?format=jpg&name=4096x4096",
+          "keywords": [
+            "#동료애",
+            "#열정적인",
+            "#신중한"
+          ]
+        },
+        {
+          "name": "홉스 바우만",
+          "profileLink": "https://docs.google.com/document/d/1gPG2q96Wr1s61sSs1aAaukbL4NVfeGFgihCCaNvprsE/edit?usp=sharing",
+          "position": "Wheel",
+          "grade": "2",
+          "imgLink": "https://pbs.twimg.com/media/GuNExjIbgAEALD_?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNExjIbgAEALD_?format=jpg&name=4096x4096",
+          "keywords": [
+            "#신중한 우직함",
+            "#불사르는 이타성",
+            "#월등한 공감능력"
+          ]
+        },
+        {
+          "name": "리우나",
+          "profileLink": "https://docs.google.com/document/d/16x7n4jIKeQHwYBH8UL2kaUEpw3MMD9z5FyyyvX2dEv0/edit?usp=sharing",
+          "position": "swing",
+          "grade": "3",
+          "imgLink": "https://pbs.twimg.com/media/GuNFCJPagAgEOxv?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNFCJPagAgEOxv?format=jpg&name=4096x4096",
+          "keywords": [
+            "#추구미만",
+            "#멋스러운",
+            "#유아독존",
+            "#냉혈한"
+          ]
+        },
+        {
+          "name": "아과",
+          "profileLink": "https://docs.google.com/document/d/1l19ezbJNGKit3ND1G_8cn9kL7DKtOFrYuq4--7AB6Og/edit?usp=sharing",
+          "position": "lead",
+          "grade": "2",
+          "imgLink": "https://pbs.twimg.com/media/GuNFyFoagAMf5Ny?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNFyFoagAMf5Ny?format=jpg&name=4096x4096",
+          "keywords": [
+            "#무심한 듯",
+            "#물욕없는",
+            "#행동파"
+          ]
+        },
+        {
+          "name": "막스 슈트라우스",
+          "profileLink": "https://docs.google.com/document/d/1Fk_LTj0Z0_-FQGvlou156u3aE7cLzaoCCDP_To2C408/edit?tab=t.43ix4f4lr3sb#heading=h.ynvw40s4cckn",
+          "position": "team",
+          "grade": "3",
+          "imgLink": "https://pbs.twimg.com/media/GuNGXtwagAUkSvs?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNGXtwagAUkSvs?format=jpg&name=4096x4096",
+          "keywords": [
+            "#성실한",
+            "#융통성없는",
+            "#서툰"
+          ]
+        },
+        {
+          "name": "예세니아 사에르",
+          "profileLink": "https://docs.google.com/document/d/1YeZzzmFMwffU7EZRmcCf-hETlTV_3h6ms5cJNiDF7ug/edit?usp=sharing",
+          "position": "Wheel",
+          "grade": "3",
+          "imgLink": "https://pbs.twimg.com/media/GuNDj_DaMAAOzO5?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNDj_DaMAAOzO5?format=jpg&name=4096x4096",
+          "keywords": [
+            "#오만한",
+            "#실력만능주의",
+            "#개인보다",
+            "#집단"
+          ]
+        },
+        {
+          "name": "말레리",
+          "profileLink": "https://docs.google.com/document/d/1X7bgKOuv9u-hOObjORV4b-E4t7GjQnadFlPrY9zIg-0/edit?usp=sharing",
+          "position": "Wheel",
+          "grade": "3",
+          "imgLink": "https://pbs.twimg.com/media/GuNDxm3agAEikvR?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNDxm3agAEikvR?format=jpg&name=4096x4096",
+          "keywords": [
+            "#우유부단",
+            "#수동적",
+            "#근성과 충심"
+          ]
+        },
+        {
+          "name": "세르조",
+          "profileLink": "https://docs.google.com/document/d/12x7IYYw_5FIACKtWNv7IB_6FiNrcMNk_QMI12MV-CKo/edit?tab=t.43ix4f4lr3sb",
+          "position": "team",
+          "grade": "2",
+          "imgLink": "https://pbs.twimg.com/media/GuND6Q3bMAAtrha?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuND6Q3bMAAtrha?format=jpg&name=4096x4096",
+          "keywords": [
+            "#친절함",
+            "#임기응변",
+            "#중재자"
+          ]
+        },
+        {
+          "name": "나인",
+          "profileLink": "https://docs.google.com/document/d/1iPii6xx68Jkgul-matS0j7HhoYsdfZyw6VZW1DqkunE/edit?tab=t.43ix4f4lr3sb",
+          "position": "team",
+          "grade": "2",
+          "imgLink": "https://pbs.twimg.com/media/GuNEdlYbwAApAYc?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNEdlYbwAApAYc?format=jpg&name=4096x4096",
+          "keywords": [
+            "#무기력",
+            "#순응",
+            "#생존본능"
+          ]
+        },
+        {
+          "name": "제인 무어",
+          "profileLink": "https://docs.google.com/document/d/1VJ2XMhIM1xjcuOZl8b9a9dIOfpfBsTyOHPiTpCEU92k/edit?usp=sharing",
+          "position": "swing",
+          "grade": "2",
+          "imgLink": "https://pbs.twimg.com/media/GuNFfqyagAIIGl6?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNFfqyagAIIGl6?format=jpg&name=4096x4096",
+          "keywords": [
+            "#해맑은",
+            "#순종적",
+            "#근면성실"
+          ]
+        },
+        {
+          "name": "마리아 라모스 디아즈",
+          "profileLink": "https://docs.google.com/document/d/1-n3p11bhc1YeZzPWaGALBlqOMbis9_v3rOQXZJifKdk/edit?tab=t.0",
+          "position": "lead",
+          "grade": "3",
+          "imgLink": "https://pbs.twimg.com/media/GuNGTgjagAIKCdZ?format=jpg&name=4096x4096",
+          "loadingImg": "./sled-dog.gif",
+          "originImg": "https://pbs.twimg.com/media/GuNGTgjagAIKCdZ?format=jpg&name=4096x4096",
+          "keywords": [
+            "#호탕한",
+            "#다정한",
+            "#어머니같은"
+          ]
+        }
+      ]
+    }
+  ]
+  
+  
+  
