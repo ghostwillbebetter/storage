@@ -117,7 +117,10 @@
           getGradeClass(member.grade).forEach((cls) =>
             grade.classList.add(cls)
           );
-          grade.textContent = `${member.grade}급`;
+          grade.textContent =
+            member.grade === "팀장" || member.grade === "부팀장"
+              ? member.grade
+              : `${member.grade}급`;
 
           // 이미지
           const aImg = document.createElement("a");
