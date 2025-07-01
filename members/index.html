@@ -216,7 +216,7 @@
 
         /** 반짝이 효과 부여 */
         function addTwinkleEffect() {
-          const targetGrades = ["팀장", "부팀장", "1"];
+          const targetGrades = ["팀장", "부팀장", "1급"];
           document.querySelectorAll(".team-list li").forEach((item) => {
             const gradeEl = item.querySelector(".grade");
             if (gradeEl && targetGrades.includes(gradeEl.textContent.trim())) {
