@@ -117,7 +117,7 @@
           getGradeClass(member.grade).forEach((cls) =>
             grade.classList.add(cls)
           );
-          grade.textContent = member.grade;
+          grade.textContent = `${member.grade}급`;
 
           // 이미지
           const aImg = document.createElement("a");
@@ -213,7 +213,7 @@
 
         /** 반짝이 효과 부여 */
         function addTwinkleEffect() {
-          const targetGrades = ["팀장", "부팀장", "1급"];
+          const targetGrades = ["팀장", "부팀장", "1"];
           document.querySelectorAll(".team-list li").forEach((item) => {
             const gradeEl = item.querySelector(".grade");
             if (gradeEl && targetGrades.includes(gradeEl.textContent.trim())) {
